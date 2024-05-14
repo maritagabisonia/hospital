@@ -1,0 +1,48 @@
+.categoryMenu{
+  width: 350px;
+  height: 800px;
+  position: absolute;
+  top: 903px;
+  left: 150px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 50px rgba(5, 51, 84, 0.05);
+
+}
+.categoryText{
+  width: 121px;
+  height: 22px;
+  position: absolute;
+  top: 0px;
+  left: 100px;
+  font-family: 'FiraGO';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21.6px;
+  margin-bottom: 5px;
+}
+.categoryList{
+  position: absolute;
+  top: 70px;
+  left: 30px;
+}
+ul {
+  width: 150px;
+  height: 40px;
+  list-style: none;
+  padding: 0;
+}
+
+li {
+
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.badge {
+  float: right;
+  color: #053354;
+  padding: 3px ;
+  border-radius: 10px;
+}

@@ -1,0 +1,23 @@
+<div class="conteiner">
+<div class="doctorCard">
+  <div class="review">
+     <img class="eye" src="assets\ic_baseline-remove-red-eye.svg"  alt="eye Icon" >
+      <span>{{ doctor.reviewCount }}</span>
+  </div>
+  <div >
+ <img class="pin" src="{{ doctor.pinned ? 'assets/pin-svgrepo-com 1.svg' : 'assets/pin-svgrepo-com 4.svg' }}" alt="Pin Icon">
+  </div>
+  <div class="doctorProfile">
+  <img src="https://s3-alpha-sig.figma.com/img/52d2/de8c/416a4210d59382f4a3488ddd51eb72fb?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=XwC0g~VFz~3iY7HnoTYJDH430XMYjbH3MknDm4KiJtncKnsqZgaSuy406Py9TSUixOS4Siye3-nYQarlR0l7hyEFyeLITnBfX3mA6yDYVB~hxrZvB1ntleRiUiACE7cUU9OWpeh0IHqiVlTwqpqhuP0hrHphpx92e0bF1a9cg2RV1YxCOodM15hRZOgPllMt5IcHgouD8cp4he9-qAf6qR0zptFMqNfG9q-KAAEKk8t3zR-QD05YrNiv9zqUCDa74zW56dQKSOfiRqJf7uumiHofII~73hVX5zwNHEmDU~K6uniTuQe5tkOC7TeCgWsAOF8mzf8Kxs7FXas12hXMWg__" alt="doctorsPhoto">
+  <h3 >{{ doctor.userName }} {{ doctor.lastName }}</h3>
+    <p>{{ doctor.category }}</p>
+    <div>
+      <span>{{ getStars() }}</span>
+    </div>
+    <button><h4>მიღებაზე ჩაწერა ></h4> </button>
+  </div>
+</div>
+</div>
+
+
+

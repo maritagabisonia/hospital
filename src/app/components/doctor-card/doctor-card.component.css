@@ -1,0 +1,91 @@
+
+.doctorCard{
+   width: 390px;
+   height: 390px;
+   gap: 0px;
+   border-radius: 10px;
+   position: relative; 
+   background-color: #FFFFFF;
+   box-shadow: 0px 4px 30px 0px #0533540D;
+   border: 1px solid #18A4E14D;
+   margin-top: 10px;
+}
+
+img{
+   width: 157px;
+   height: 157px;
+   top: 2px;
+   position: relative;
+   gap: 0px;
+   border-radius: 100px;
+}
+h3{
+   font-family: FiraGO;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 21.6px;
+}
+p{
+  font-family: FiraGO;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  color: #0533544D;
+}
+button{
+  
+   Width: 200px;
+   Height: 50px;
+   border-radius: 25px;
+   border: 1px solid #18A4E1;
+   background-color: #FFFFFF;
+   cursor: pointer; 
+   padding: 14px 7px;
+}
+h4{
+   width: 135px;
+   height: 19px;
+   font-family: FiraGO;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 19.2px;
+   color:#18A4E1;
+   left: 25px;
+   padding-bottom: 50px;
+   position: relative;
+   margin: 0px ;
+
+
+}
+.pin{ 
+   left: 355px;
+   position: absolute;
+   width: 24px;
+   height: 24px;
+   padding-top: 5px;
+
+}
+.eye{
+    Width:20px;
+    Height:20px;
+    padding-right: 9px;
+    padding-top: 3px;
+}
+.doctorProfile{
+
+    padding-top: 31px;
+    text-align: center;
+}
+
+.review{
+    Width:107px;
+    Height:30px;
+    background: #ECF2F880;
+    border-radius: 50px;
+    top: 9px;
+    left: 9px;
+   position: absolute;
+   text-align: center;
+
+
+}

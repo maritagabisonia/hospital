@@ -1,0 +1,8 @@
+<div class="doctorList">
+<ul>
+     <li *ngFor="let doctor of DoctorsService.DoctorsList">
+      
+      <app-doctor-card [doctor]="doctor"></app-doctor-card>
+      </li>
+</ul>
+</div>

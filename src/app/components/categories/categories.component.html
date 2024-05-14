@@ -1,0 +1,15 @@
+<div class="categoryMenu">
+    <div class="categoryText">
+    <h4>კატეგორიები</h4>
+    </div>
+    <div class = "categoryList"> 
+         <ul>
+              <li *ngFor="let item of CategoriesService.categoryList">({{ item.count }})
+                 <span class="badge">{{ item.category }}</span>
+              </li>
+         </ul>
+     
+     </div>
+</div>
+
+

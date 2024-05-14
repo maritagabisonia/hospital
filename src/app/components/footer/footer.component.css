@@ -1,0 +1,64 @@
+.container{
+  width: 1920px;
+  height: 335px;
+  top: 1745px;
+  position: absolute;
+  background-color: #053354;
+
+}
+img{
+  width: 90px;
+  height: 66px;
+  top: 70px;
+  left: 146px;
+  position: relative;
+}
+h3{
+  width: 103px;
+  height: 26px;
+  top: 1px;
+  left: 214px;
+  position: relative;
+  color:white;
+  font-family: FiraGO;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 26.4px;
+  letter-spacing: 0.07em;
+  text-align: left;
+}
+
+.info-section h5{
+  top: -125px;
+  left: 530px;
+  position: relative;
+}
+.info-container {
+  color: white;
+  padding: 2px;
+}
+
+.info-list {
+  list-style-type: none; 
+  display: flex;
+  padding: 0;
+}
+
+.info-section {
+  width: 151px; 
+}
+
+.info-section ul {
+border-top: 1px solid #ECF2F84D;
+  top: -125px;
+  left: 530px;
+  position: relative;
+  list-style-type: none; 
+  padding: 0;
+}
+
+.info-section li {
+  padding: 5px 0; 
+}
+
+

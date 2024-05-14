@@ -1,0 +1,30 @@
+<h3>კატეგორია</h3>
+<table class="profile-table">
+  <thead>
+    <tr>
+      <th>სახელი</th>
+      <th>კატეგორია</th>
+      <th>ფოტოსურათი</th>
+      <th>რეიტინგი</th>
+      <th style="width: 140px;"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let doctor of DoctorsService.DoctorsList">
+      <td>{{ doctor.userName }}</td>
+      <td>{{ doctor.category }}</td>
+      <td style="padding-left: 45px;"> 
+            <img  src="assets/person.svg" alt="your doctor pic">
+      </td>
+      <td>
+        <div class="rating">
+            <img *ngFor="let _ of [].constructor(doctor.rating); let i = index" src="assets/star.svg">
+        </div>
+      </td>
+      <td>
+        <button class="action-btn edit" style="background-color: #DAFAEE;"><img src="assets/fanqari.svg" alt="pencil"></button>
+        <button class="action-btn delete" style="background-color: #FF93A6;"><img src="assets/delete.svg" alt="delete.icon"></button>
+      </td>
+    </tr>
+  </tbody>
+</table>
